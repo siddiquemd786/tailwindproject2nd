@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .number{
+        @apply md:text-xl text-center text-lg  font-semibold justify-end text-[#00FF84];
+    }
+
+    
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    
+}
